@@ -1,0 +1,9 @@
+{
+  "name": "wise-social-media",
+  "private": true,
+  "description": "Root scripts used for one-service deployment (e.g. Render)",
+  "scripts": {
+    "build": "npm --prefix client install --include=dev && npm --prefix client run build && npm --prefix server install",
+    "start": "npm --prefix server start"
+  }
+}
